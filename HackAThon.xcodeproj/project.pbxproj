@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F750DA2C1D9DF2D900801794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA2B1D9DF2D900801794 /* AppDelegate.swift */; };
-		F750DA2E1D9DF2D900801794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA2D1D9DF2D900801794 /* ViewController.swift */; };
 		F750DA311D9DF2D900801794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750DA2F1D9DF2D900801794 /* Main.storyboard */; };
 		F750DA331D9DF2D900801794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F750DA321D9DF2D900801794 /* Assets.xcassets */; };
 		F750DA361D9DF2D900801794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750DA341D9DF2D900801794 /* LaunchScreen.storyboard */; };
 		F750DA411D9DF2D900801794 /* HackAThonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA401D9DF2D900801794 /* HackAThonTests.swift */; };
 		F750DA4C1D9DF2D900801794 /* HackAThonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA4B1D9DF2D900801794 /* HackAThonUITests.swift */; };
+		F750DA5B1D9DF31100801794 /* HackAThon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F750DA591D9DF31100801794 /* HackAThon.xcdatamodeld */; };
+		F750DA5D1D9DF3C000801794 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA5C1D9DF3C000801794 /* LoginViewController.swift */; };
+		F750DA5F1D9DF40B00801794 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA5E1D9DF40B00801794 /* RegisterViewController.swift */; };
+		F750DA611D9DF4AD00801794 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA601D9DF4AD00801794 /* MainMenuViewController.swift */; };
+		F750DA631D9DF51D00801794 /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA621D9DF51D00801794 /* EventsListViewController.swift */; };
+		F750DA651D9DF5AB00801794 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA641D9DF5AB00801794 /* FriendsViewController.swift */; };
+		F750DA671D9DF68300801794 /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA661D9DF68300801794 /* MyEventsViewController.swift */; };
+		F750DA691D9DF73700801794 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA681D9DF73700801794 /* EventDetailViewController.swift */; };
+		F750DA6B1D9DF77600801794 /* AttendeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA6A1D9DF77600801794 /* AttendeesViewController.swift */; };
+		F750DA6D1D9DF84500801794 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA6C1D9DF84500801794 /* CreateEventViewController.swift */; };
+		F750DA6F1D9DF89F00801794 /* FriendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750DA6E1D9DF89F00801794 /* FriendRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		F750DA281D9DF2D900801794 /* HackAThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackAThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F750DA2B1D9DF2D900801794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F750DA2D1D9DF2D900801794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F750DA301D9DF2D900801794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F750DA321D9DF2D900801794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F750DA351D9DF2D900801794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		F750DA471D9DF2D900801794 /* HackAThonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackAThonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F750DA4B1D9DF2D900801794 /* HackAThonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackAThonUITests.swift; sourceTree = "<group>"; };
 		F750DA4D1D9DF2D900801794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F750DA5A1D9DF31100801794 /* HackAThon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackAThon.xcdatamodel; sourceTree = "<group>"; };
+		F750DA5C1D9DF3C000801794 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F750DA5E1D9DF40B00801794 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F750DA601D9DF4AD00801794 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		F750DA621D9DF51D00801794 /* EventsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		F750DA641D9DF5AB00801794 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		F750DA661D9DF68300801794 /* MyEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsViewController.swift; sourceTree = "<group>"; };
+		F750DA681D9DF73700801794 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		F750DA6A1D9DF77600801794 /* AttendeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesViewController.swift; sourceTree = "<group>"; };
+		F750DA6C1D9DF84500801794 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		F750DA6E1D9DF89F00801794 /* FriendRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendRequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +118,21 @@
 			isa = PBXGroup;
 			children = (
 				F750DA2B1D9DF2D900801794 /* AppDelegate.swift */,
-				F750DA2D1D9DF2D900801794 /* ViewController.swift */,
+				F750DA5C1D9DF3C000801794 /* LoginViewController.swift */,
+				F750DA5E1D9DF40B00801794 /* RegisterViewController.swift */,
+				F750DA601D9DF4AD00801794 /* MainMenuViewController.swift */,
+				F750DA661D9DF68300801794 /* MyEventsViewController.swift */,
+				F750DA621D9DF51D00801794 /* EventsListViewController.swift */,
+				F750DA681D9DF73700801794 /* EventDetailViewController.swift */,
+				F750DA6A1D9DF77600801794 /* AttendeesViewController.swift */,
+				F750DA641D9DF5AB00801794 /* FriendsViewController.swift */,
+				F750DA6C1D9DF84500801794 /* CreateEventViewController.swift */,
+				F750DA6E1D9DF89F00801794 /* FriendRequestViewController.swift */,
 				F750DA2F1D9DF2D900801794 /* Main.storyboard */,
 				F750DA321D9DF2D900801794 /* Assets.xcassets */,
 				F750DA341D9DF2D900801794 /* LaunchScreen.storyboard */,
 				F750DA371D9DF2D900801794 /* Info.plist */,
+				F750DA591D9DF31100801794 /* HackAThon.xcdatamodeld */,
 			);
 			path = HackAThon;
 			sourceTree = "<group>";
@@ -262,7 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F750DA2E1D9DF2D900801794 /* ViewController.swift in Sources */,
+				F750DA651D9DF5AB00801794 /* FriendsViewController.swift in Sources */,
+				F750DA611D9DF4AD00801794 /* MainMenuViewController.swift in Sources */,
+				F750DA5D1D9DF3C000801794 /* LoginViewController.swift in Sources */,
+				F750DA691D9DF73700801794 /* EventDetailViewController.swift in Sources */,
+				F750DA6B1D9DF77600801794 /* AttendeesViewController.swift in Sources */,
+				F750DA5F1D9DF40B00801794 /* RegisterViewController.swift in Sources */,
+				F750DA671D9DF68300801794 /* MyEventsViewController.swift in Sources */,
+				F750DA6D1D9DF84500801794 /* CreateEventViewController.swift in Sources */,
+				F750DA6F1D9DF89F00801794 /* FriendRequestViewController.swift in Sources */,
+				F750DA5B1D9DF31100801794 /* HackAThon.xcdatamodeld in Sources */,
+				F750DA631D9DF51D00801794 /* EventsListViewController.swift in Sources */,
 				F750DA2C1D9DF2D900801794 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +570,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F750DA591D9DF31100801794 /* HackAThon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F750DA5A1D9DF31100801794 /* HackAThon.xcdatamodel */,
+			);
+			currentVersion = F750DA5A1D9DF31100801794 /* HackAThon.xcdatamodel */;
+			path = HackAThon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F750DA201D9DF2D800801794 /* Project object */;
 }
